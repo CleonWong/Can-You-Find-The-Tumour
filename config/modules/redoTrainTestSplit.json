@@ -1,0 +1,12 @@
+{
+    "extension": ".png",
+    "train_summed_masks_dir": "../data/preprocessed/Mass/archive_Train_summed_masks",
+    "test_summed_masks_dir": "../data/preprocessed/Mass/archive_Test_summed_masks",
+    "all_full_dir": "../data/preprocessed/Mass/All_FULL",
+    "all_mask_dir": "../data/preprocessed/Mass/All_MASK",
+    "test_split": 0.1,
+    "target_train_full_dir": "../data/preprocessed/Mass/Train_FULL",
+    "target_train_mask_dir": "../data/preprocessed/Mass/Train_MASK",
+    "target_test_full_dir": "../data/preprocessed/Mass/Test_FULL",
+    "target_test_mask_dir": "../data/preprocessed/Mass/Test_MASK"
+}

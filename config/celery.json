@@ -1,0 +1,12 @@
+{
+    "base":{
+        "name"        : "mammogram-cv",
+        "BROKER_URL"  : "redis://localhost:6379/0",
+        "BACKEND_URL" : "redis://localhost:6379/1",
+        "include"     : ["lib.celeryWorkerExample.worker_1"]
+    },
+
+    "extra" : {
+        "result_expires" : 3600
+    }
+}

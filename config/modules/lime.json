@@ -1,0 +1,15 @@
+{
+    "model_dir": "../results/classification/20201221_064530_INSTANCE/saved_model/20201221_064530",
+    "img_folder": "../data/preprocessed/Classification/all_classification_CROP",
+    "img_width": 224,
+    "img_height": 224,
+    "seed": 42,
+    "num_samples": 500,
+    "num_features": [
+        3,
+        5,
+        7
+    ],
+    "to_lime_csv": "../results/classification/20201221_064530_INSTANCE/predicted_outputs/best50_mass_pred.csv",
+    "saveto_folder": "../results/classification/20201221_064530_INSTANCE/lime_outputs/best50_mass/try2"
+}

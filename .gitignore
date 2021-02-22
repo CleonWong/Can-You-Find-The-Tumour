@@ -1,0 +1,40 @@
+
+# Ignore the mac-specific files in all folders
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+**/.vscode
+
+# No environment stuff 
+env/
+
+# Ignore pyenv version
+.python-version
+
+# Dont save any catached files
+**/__pycache__/
+
+#-----------------------------------------------
+# Cached files from Sublime Text, VS code, 
+#   and other random things should not be 
+#   pushed ...
+#-----------------------------------------------
+._*
+**/._*
+**/.ipynb_checkpoints
+.vscode
+
+# Dont save passwords, server locations etc.
+config/db.json
+
+# All the logs are to be ignored
+# Remember to keep the decorators
+src/logs/*.log
+
+# Dont save results or data (might be a lot of stuff)
+results/*
+data/*
+
+# Ignore writeups folder
+writeups/*

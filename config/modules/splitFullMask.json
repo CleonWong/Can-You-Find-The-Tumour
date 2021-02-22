@@ -1,0 +1,6 @@
+{
+    "top": "../data/preprocessed/Mass/Test",
+    "FULL_or_MASK": "FULL",
+    "extension": ".png",
+    "copy_to": "../data/preprocessed/Mass/Test_FULL"
+}

@@ -1,0 +1,50 @@
+{
+    "seed": 42,
+    "datasetPaths": {
+        "train_full_img_dir": "../data/preprocessed/Mass/overfit/Train_FULL",
+        "train_mask_img_dir": "../data/preprocessed/Mass/overfit/Train_MASK",
+        "test_full_img_dir": "../data/preprocessed/Mass/overfit/Test_FULL",
+        "test_mask_img_dir": "../data/preprocessed/Mass/overfit/Test_MASK",
+        "extension": ".png"
+    },
+    "load_image": {
+        "target_size": 224
+    },
+    "imgAugment": {
+        "brightness_delta": 0.3
+    },
+    "makeTFDataset": {
+        "batch_size": 1
+    },
+    "model": {
+        "encoder": {
+            "input_width": 224,
+            "input_channels": 3
+        },
+        "decoder": {
+            "kernel_size": 3,
+            "strides": 2,
+            "padding": "same",
+            "activation": null
+        },
+        "final_layer": {
+            "filters": 1,
+            "activation": "sigmoid"
+        }
+    },
+    "train": {
+        "validate": false,
+        "loss": "binary_crossentropy",
+        "learning_rate": 0.00001,
+        "dropout": 0.5,
+        "dropout_training": true,
+        "num_epochs": 50,
+        "callback_monitor": "iouMetric",
+        "callback_mode": "max",
+        "ckpt_save_weights_only": true,
+        "ckpt_save_best_only": true,
+        "earlystop_patience": 5,
+        "earlystop_restore_best_weights": true,
+        "results_dir": "../results/fit"
+    }
+}

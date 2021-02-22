@@ -1,0 +1,10 @@
+{
+    "paths": {
+        "images": "../data/preprocessed/Mass/Train",
+        "csv": "../data/raw_data/csv-description-updated/Mass-Training-Description-UPDATED.csv",
+        "output": "../data/preprocessed/Mass/Train_summed_masks"
+    },
+    "abnormality_col": "abnormality_id",
+    "extension": ".png",
+    "save": true
+}

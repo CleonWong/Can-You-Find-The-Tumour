@@ -1,0 +1,32 @@
+{
+    "paths": {
+        "input": "../data/raw_data/Calc/Test",
+        "output_full": "../data/preprocessed/Calc/Test_FULL",
+        "output_mask": "../data/preprocessed/Calc/Test_MASK"
+    },
+    "output_format": ".png",
+    "cropBorders": {
+        "l": 0.01,
+        "r": 0.01,
+        "u": 0.04,
+        "d": 0.04
+    },
+    "globalBinarise": {
+        "thresh": 0.1,
+        "maxval": 1.0
+    },
+    "editMask": {
+        "ksize": 23,
+        "operation": "open"
+    },
+    "sortContourByArea": {
+        "reverse": true
+    },
+    "xLargestBlobs": {
+        "top_x": 1
+    },
+    "clahe": {
+        "clip": 2.0,
+        "tile": 8
+    }
+}

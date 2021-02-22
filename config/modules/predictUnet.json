@@ -1,0 +1,9 @@
+{
+    "seed": 42,
+    "to_predict_x": "../data/preprocessed/Mass/Test_FULL",
+    "to_predict_y": "../data/preprocessed/Mass/Test_MASK",
+    "extension": ".png",
+    "target_size": 224,
+    "ckpt_path": "../results/fit/20201203_040325___INSTANCE/checkpoints",
+    "save_predicted": "../results/fit/20201203_040325___INSTANCE/predicted_outputs"
+}

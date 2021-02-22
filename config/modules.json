@@ -1,0 +1,135 @@
+[
+    {
+        "moduleName": "testing",
+        "path": "modules/testing/testing.py",
+        "execute": false,
+        "description": "Merge the masks of scans with more than 1 tumours.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "extractDicom",
+        "path": "modules/extractDicom/extractDicom.py",
+        "execute": false,
+        "description": "Extract all .dcm files from the nested folder structure.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "countFileType",
+        "path": "modules/countFileType/countFileType.py",
+        "execute": false,
+        "description": "Count the number of full, crop or mask files in a given folder.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "updateDcmPath",
+        "path": "modules/updateDcmPath/updateDcmPath.py",
+        "execute": false,
+        "description": "Update the .dcm paths provided in the .csv description.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "imagePreprocessing",
+        "path": "modules/imagePreprocessing/imagePreprocessing.py",
+        "execute": false,
+        "description": "Preprocess raw .dcm images.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "cropPreprocessing",
+        "path": "modules/imagePreprocessing/cropPreprocessing.py",
+        "execute": false,
+        "description": "To preprocess cropped ROI images.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "mergeMultiTumour",
+        "path": "modules/imagePreprocessing/mergeMultiTumour.py",
+        "execute": false,
+        "description": "Merge the masks of scans with more than 1 tumours.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "redoTrainTestSplit",
+        "path": "modules/redoTrainTestSplit/redoTrainTestSplit.py",
+        "execute": false,
+        "description": "Undo the train-test 70-30 split that was originally implemented in the raw dataset.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "splitFullMask",
+        "path": "modules/splitFullMask/splitFullMask.py",
+        "execute": false,
+        "description": "Copies the FULl and MASK images from a given folder into their respective folders.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "trainUnet",
+        "path": "modules/trainUnet/trainUnet.py",
+        "execute": false,
+        "description": "Train unet.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "predictUnet",
+        "path": "modules/predictUnet/predictUnet.py",
+        "execute": false,
+        "description": "",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "computeIOU",
+        "path": "modules/computeIOU/computeIOU.py",
+        "execute": false,
+        "description": "computes the IOU of ground truth masks and their corresponding predicted masks.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "overlayMasks",
+        "path": "modules/overlayMasks/overlayMasks.py",
+        "execute": false,
+        "description": "Overlay ground truth masks and their corresponding predicted masks.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "trainResnet50",
+        "path": "modules/trainResnet50/trainResnet50.py",
+        "execute": false,
+        "description": "Build and train ResNet50 for classification.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "predictClassifier",
+        "path": "modules/predictClassifier/predictClassifier.py",
+        "execute": false,
+        "description": "Used to make classification predictions using the trained classification model (either ResNet50 or VGG16).",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "gradCAM",
+        "path": "modules/gradCAM/gradCAM.py",
+        "execute": false,
+        "description": "Apply Grad-CAM to a pre-trained classification model.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "lime",
+        "path": "modules/lime/lime.py",
+        "execute": true,
+        "description": "Apply Grad-LIME to a pre-trained classification model.",
+        "owner": "Cleon-Wong"
+    },
+    {
+        "moduleName": "versionedModule",
+        "path": "modules/versionedModule/versionedModule.py",
+        "execute": false,
+        "description": "a module that tests a versioned library",
+        "owner": ""
+    },
+    {
+        "moduleName": "celeryCheck",
+        "path": "modules/celeryCheck/celeryCheck.py",
+        "execute": false,
+        "description": "",
+        "owner": ""
+    }
+]

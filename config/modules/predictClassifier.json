@@ -1,0 +1,8 @@
+{
+    "seed": 42,
+    "to_predict_csv_path": "../results/classification/20201221_064530_INSTANCE/model_params/val_set.csv",
+    "target_size": 224,
+    "savedmodel_path": "../results/classification/20201221_064530_INSTANCE/saved_model/20201221_064530",
+    "img_folder": "../data/preprocessed/Classification/all_classification_CROP",
+    "save_predicted_csv": "../results/classification/20201221_064530_INSTANCE/predicted_outputs"
+}

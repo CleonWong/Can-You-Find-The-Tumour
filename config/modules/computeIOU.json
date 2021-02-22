@@ -1,0 +1,7 @@
+{
+    "y_true_dir": "../data/preprocessed/Mass/Test_MASK",
+    "y_pred_dir": "../results/fit/20201203_013807___INSTANCE/predicted_outputs/predmask_only",
+    "extension": ".png",
+    "target_size": 224,
+    "save_iou_dict_dir": "../results/fit/20201203_013807___INSTANCE/predicted_outputs/IOUs"
+}

@@ -1,0 +1,25 @@
+{
+    "input": {
+        "mass": {
+            "train": {
+                "csv": "../data/raw_data/csv-description/Mass-Training-Description.csv",
+                "dcm_folder": "../data/raw_data/Mass/Train"
+            },
+            "test": {
+                "csv": "../data/raw_data/csv-description/Mass-Test-Description.csv",
+                "dcm_folder": "../data/raw_data/Mass/Test"
+            }
+        }
+    },
+    "output": {
+        "mass": {
+            "train": {
+                "csv": "../data/raw_data/csv-description-updated/Mass-Training-Description-UPDATED.csv"
+            },
+            "test": {
+                "csv": "../data/raw_data/csv-description-updated/Mass-Test-Description-UPDATED.csv"
+            }
+        }
+    },
+    "save_output": false
+}

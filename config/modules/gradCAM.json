@@ -1,0 +1,15 @@
+{
+    "model_dir": "../results/classification/20201221_064530_INSTANCE/saved_model/20201221_064530",
+    "layer_name": "block5_conv3",
+    "img_width": 224,
+    "img_height": 224,
+    "thresh": [
+        0.0,
+        0.3,
+        0.5,
+        0.7
+    ],
+    "img_folder": "../data/preprocessed/Classification/all_classification_CROP",
+    "to_gradcam_csv": "../results/classification/20201221_064530_INSTANCE/predicted_outputs/best50_calc_pred.csv",
+    "saveto_folder": "../results/classification/20201221_064530_INSTANCE/gradcam_outputs/best50_calc/thresh_comparison"
+}

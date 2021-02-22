@@ -1,0 +1,11 @@
+{
+    "paths": {
+        "input": "/Users/cleonwong/Dropbox (Holmusk)/mammogram-cv/CBIS-DDSM/Mass/Train_extracted",
+        "output": "../data/preprocessed/Mass/Train_CROP"
+    },
+    "output_format": ".png",
+    "clahe": {
+        "clip": 2.0,
+        "tile": 8
+    }
+}
