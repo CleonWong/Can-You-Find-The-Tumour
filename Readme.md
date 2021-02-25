@@ -1,4 +1,4 @@
-# mammogram-cv
+# Can You Find the Tumours?
 
 This project aims to apply semantic segmentation models to locate abnormalities in mammogram images.
 
