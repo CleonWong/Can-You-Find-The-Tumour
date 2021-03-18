@@ -6,8 +6,8 @@ This project aims to apply semantic segmentation models to locate abnormalities 
 I wrote a 3-part article series that complements this repository. It provides insights, intuitions and thought processes that might be hard for some to decipher just from the code. Also, it comes with some nice illustrations and visualisations! Give them a read if you'd like, hope they help!
 
 1. [Can You Find the Breast Tumours? (Part 1 of 3)](https://towardsdatascience.com/can-you-find-the-breast-tumours-part-1-of-3-1473ba685036)
-2. Can You Find the Breast Tumours? (Part 2 of 3)
-3. Can You Find the Breast Tumours? (Part 3 of 3)
+2. [Can You Find the Breast Tumours? (Part 2 of 3)](https://towardsdatascience.com/can-you-find-the-breast-tumours-part-2-of-3-1d43840707fc)
+3. [Can You Find the Breast Tumours? (Part 3 of 3)](https://towardsdatascience.com/can-you-find-the-breast-tumours-part-3-of-3-388324241035)
 
 ## Getting Started
 
